@@ -12,7 +12,9 @@ Script requires:
 * flac - for convertign recordered wav file to flac format
 * curl - for sending HTTP requests with flac file to Google
 
-    $ sudo apt-get install sox flac curl               # for ubuntu
+To install all deps on Ubuntu run:
+
+    $ sudo apt-get install sox flac curl
 
 Running
 -------
