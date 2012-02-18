@@ -1,17 +1,5 @@
 #!/bin/bash
 
-# Скрипт преобразует звук записанный с микрофона в текст
-#
-# Зависимости:
-# 
-#  # apt-get install curl sox flac
-#
-# Использование:
-#   
-# 
-# Источник: http://ab-log.ru/smart-house/speech/speech-recognition
-# Допилы:   yury.kotlyarov@gmail.com
-
 LANG=$1
 
 if [ -z $LANG ]; then
